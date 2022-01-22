@@ -1,0 +1,176 @@
+.backimg
+{
+    background: no-repeat url(h.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+
+.wrap
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+
+}
+input 
+{
+    padding: 3px;
+    width: 380px;
+    
+}
+
+.title{
+    font-family: Roboto Mono;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: large;
+    font-stretch: semi-condensed;
+    text-align: center;
+
+
+    
+
+}
+
+input::placeholder  {
+    font-family: monospace;
+    font-size: 12px;
+
+  }
+
+  h1{
+      font-family:Cinzel Decorative ;
+      text-align: center;
+      text-indent: 20px;
+      letter-spacing:15px;
+      color: rgb(255, 255, 255);
+      font-weight: 900;
+      text-shadow: 3px 3px 6px #000000;
+ 
+    
+
+  }
+  .inputpart
+  {
+      text-align: center;
+  }
+
+  .inputpart .choice
+  {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 2rem;
+      padding:.6em;
+      border:none;
+      outline:none;
+ 
+  
+
+    
+
+      
+  }
+
+  .inputpart button
+  {
+     
+      width:40%;
+      margin-top: 1rem;
+      text-align: center;
+      border-radius: .3rem;
+      font-family:Zen Kaku Gothic New ;
+      font-size: 1rem;
+      padding: 0.3rem;
+      padding-bottom: 0.5rem;
+      background-color: rgb(0, 0, 0);
+      opacity: 0.7;
+      border:none;
+      color:white
+   
+
+  }
+
+  .botton
+  {
+      width: 80%;
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  .list
+  {
+      float:left;
+      width:32%;
+      margin-left: auto;
+      margin-right:auto;
+      margin-left: 0.5rem ;
+      justify-content: center;
+
+ 
+
+      
+
+  }
+
+  .image
+  {
+      max-width: 100%;
+      height:350px;
+      object-fit:cover;
+      border: rgb(255, 255, 255) 3px solid;
+      text-shadow: 20px 20px;
+      box-shadow:5px 5px 5px #999;
+
+      
+ 
+   
+      
+  }
+
+  .image:hover
+  {
+
+    max-width: 100%;
+    height:350px;
+    object-fit:cover;
+    border: rgb(255, 255, 255) 3px solid;
+    text-shadow: 20px 20px;
+    box-shadow:10px 10px 10px rgb(172, 172, 172);
+    transition: 2s;
+    transform: scale(1.05);
+
+  }
+
+  .popdest
+{
+    margin: 20px;   
+    font-family: Montserrat;
+  
+    margin-top: 100px;
+}
+
+
+
+#middleimg
+{
+    margin-left: 35px;
+    
+}
+
+.placetitle
+{
+    font-family: Roboto Mono;
+}
+
+.paragraphs
+{
+    font-family:Zen Kaku Gothic New ;
+    font-weight: bold;
+    margin-left: 2px;
+
+}
