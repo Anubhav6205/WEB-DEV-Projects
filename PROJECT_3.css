@@ -1,0 +1,188 @@
+.backimg
+{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(decor.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+
+}
+
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo
+
+{
+    width: 120px;
+    cursor: pointer;
+    border: rgb(0, 0, 0) 3px solid 50%;
+    border-radius: 50%;
+   
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+    
+    
+   
+
+}
+.logo:hover
+{
+    transition: 0.5s;
+    box-shadow:10px 10px 10px rgb(27, 27, 27);
+
+}
+
+
+
+
+.navbar ul li
+{
+    margin: 0 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
+    color: white;
+    position: relative;
+    
+}
+
+.navbar ul li a::after
+{
+    content: '';
+    height: 3px;
+    background: rgb(5, 172, 172);
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom:  -10px;
+    transition:0.7s;
+
+
+}
+
+.navbar ul li a:hover::after
+{
+    width: 100%;
+}
+
+.content
+{
+    text-align: center;
+    top: 45%;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content h1
+{
+    font-family: 'Zen Loop', cursive;
+    font-size: 40px;
+    letter-spacing:5px ;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #000000c2;
+
+
+    
+
+}
+
+.content h1:hover
+{
+    text-shadow: 2px 2px 8px #06ffd1;
+    transition: 0.5s;
+   
+    
+}
+
+.content p
+{
+    font-family: 'Inconsolata', monospace;
+    letter-spacing:5px ;
+
+}
+
+.butt
+{
+    margin-top: 50px;
+}
+
+.butt input
+{
+    width:300px;
+    height:30px;
+    padding: 8px;
+    border:1px solid rgb(16, 235, 255);
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    opacity: 70%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border-radius: 1em;
+
+}
+
+.butt button
+{
+    width: 80px;
+    margin-top: 25px;
+    padding: 5px 5px;
+    border-radius: 1em;
+    border:1px solid rgb(16, 235, 255);
+    font-family: monospace;
+    background: transparent;
+    color: white;
+    outline: none;
+    opacity: 80%;
+    position: relative;
+
+
+
+}
+
+span{
+    background: rgb(16, 235, 255);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 1em;
+    z-index: -1;
+    overflow: none;
+  
+}
+
+
+button:hover span
+{
+    width: 100%;
+    transition: 1s;
+    overflow: none;
+    border: none;
+}
